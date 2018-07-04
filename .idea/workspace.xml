@@ -1,70 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb55baf5-5c29-4506-98d2-026eb538af28" name="Default" comment="前端页面的添加">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/areas/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/areas/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/areas/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/areas/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/areas/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/areas/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/areas/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/cart/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/cart/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/cart/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/cart/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/cart/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/cart/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/cart/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/contents/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/contents/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/contents/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/contents/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/contents/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/contents/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/contents/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/goods/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/goods/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/goods/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/goods/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/goods/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/goods/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/goods/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/order/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/order/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/order/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/order/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/order/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/order/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/order/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/pay/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/pay/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/pay/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/pay/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/pay/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/pay/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/pay/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/users/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/users/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/users/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/users/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/users/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/users/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/users/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/verifications/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/verifications/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/verifications/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/verifications/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/verifications/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/verifications/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/verifications/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/libs/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/logs/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/script/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/utils/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Meiduo.iml" afterPath="$PROJECT_DIR$/.idea/Meiduo.iml" />
+    <list default="true" id="eb55baf5-5c29-4506-98d2-026eb538af28" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/utils/exceptions.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/mall/__init__.py" afterPath="$PROJECT_DIR$/mall/mall/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/mall/settings.py" afterPath="$PROJECT_DIR$/mall/mall/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/mall/urls.py" afterPath="$PROJECT_DIR$/mall/mall/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,7 +17,52 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mall/mall/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="195" column="0" lean-forward="true" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exceptions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall/utils/exceptions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="e#21#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall/mall/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall/mall/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="e#638#679#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,6 +77,16 @@
       <GitPushTagMode />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mall/mall/urls.py" />
+        <option value="$PROJECT_DIR$/mall/mall/__init__.py" />
+        <option value="$PROJECT_DIR$/mall/utils/exceptions.py" />
+        <option value="$PROJECT_DIR$/mall/mall/settings.py" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -97,10 +94,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="76" />
+    <option name="y" value="72" />
+    <option name="width" value="1147" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,6 +141,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meiduo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meiduo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530707429644</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="功能模块的创建">
+      <created>1530709280905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530709280905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -357,15 +379,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="76" y="72" width="1147" height="741" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2866557" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6337793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1307947" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24711697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13939394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25083613" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11152074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -436,7 +459,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建基本的项目框架" />
     <MESSAGE value="前端页面的添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端页面的添加" />
+    <MESSAGE value="功能模块的创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能模块的创建" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -447,6 +471,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall/utils/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#21#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall/mall/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall/mall/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#638#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall/mall/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="195" column="0" lean-forward="true" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
           <folding />
         </state>
       </provider>
