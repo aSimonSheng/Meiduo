@@ -27,10 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+import sys
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 
 # Application definition
-import sys
-sys.path.insert(0,os.path.join(BASE_DIR, 'apps'))
+
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'users.apps.UsersConfig',
+    'users.apps.UsersConfig'
 ]
 
 MIDDLEWARE = [
@@ -78,7 +80,7 @@ WSGI_APPLICATION = 'mall.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.myspl',
+        'ENGINE': 'django.db.backends.mysql',
         'HOST': '192.168.223.144',  # 数据库主机
         'PORT': 3306,  # 数据库端口
         'USER': 'root',  # 数据库用户名
@@ -175,7 +177,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': os.path.join(os.path.dirname(BASE_DIR), "logs/meiduo.log"),  # 日志文件的位置
+            'filename': os.path.join(BASE_DIR, "logs/meiduo.log"),  # 日志文件的位置
             'maxBytes': 300 * 1024 * 1024,
             'backupCount': 10,
             'formatter': 'verbose'
@@ -193,4 +195,10 @@ REST_FRAMEWORK = {
     # 异常处理
     'EXCEPTION_HANDLER': 'utils.exceptions.exception_handler',
 }
+
+# 因为现在,我们的用户模型采用的是系统模型类
+# 所以.下列代码指定用户模型位置
+AUTH_USER_MODEL = 'users.User'
+
+
 

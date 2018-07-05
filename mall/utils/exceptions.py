@@ -7,7 +7,7 @@ from rest_framework.response import Response
 from rest_framework import status
 
 # 获取在配置文件中定义的logger，用来记录日志
-logger = logging.getLogger('meiduo')
+logger = logging.getLogger('Meiduo')
 
 def exception_handler(exc, context):
     """
