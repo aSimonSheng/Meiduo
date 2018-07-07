@@ -20,4 +20,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     # /users
     url(r'^users/', include('users.urls')),
+    #  /verifications/imagecodes/(?P<image_code_id>.+)/
+    url(r'^verifications/', include('verifications.urls')),
 ]

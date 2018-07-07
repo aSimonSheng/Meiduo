@@ -6,8 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script type="text/javascript" src="js/vue-2.5.16.js"></script>
-	<script type="text/javascript" src="js/register.js"></script>
 	<script type="text/javascript" src="js/axios-0.18.0.min.js"></script>
+	<script type="text/javascript" src="js/host.js"></script>
 </head>
 <body>
 	<div class="register_con">
@@ -30,6 +30,7 @@
 <input type="text" v-model="username" @blur="check_username" name="user_name" id="user_name">
 <span v-show="error_name" class="error_tip">{{error_name_message}}</span>
 </li>
+					<li>
 						<label>密码:</label>
 						<input type="password" v-model="password" @blur="check_pwd" name="pwd" id="pwd">
 						<span v-show="error_password" class="error_tip">密码最少8位，最长20位</span>
@@ -45,17 +46,17 @@
 <span v-show="error_phone" class="error_tip">{{ error_phone_message }}</span>
 </li>
 					<li>
-						<label>图形验证码:</label>
-						<input type="text" v-model="image_code" @blur="check_image_code" name="pic_code" id="pic_code" class="msg_input">
-						<img src="images/pic_code.jpg" alt="图形验证码" class="pic_code">
-						<span v-show="error_image_code" class="error_tip">请填写图片验证码</span>
-					</li>
+<label>图形验证码:</label>
+<input type="text" v-model="image_code" @blur="check_image_code" name="pic_code" id="pic_code" class="msg_input">
+<img :src="image_code_url" @click="generate_image_code" alt="图形验证码" class="pic_code">
+<span v-show="error_image_code" class="error_tip">{{error_image_code_message }}</span>
+</li>
 					<li>
-						<label>短信验证码:</label>
-						<input type="text" v-model="sms_code" @blur="check_sms_code" name="msg_code" id="msg_code" class="msg_input">
-						<a href="#" class="get_msg_code">获取短信验证码</a>
-						<span v-show="error_sms_code" class="error_tip">请填写短信验证码</span>
-					</li>
+<label>短信验证码:</label>
+<input type="text" v-model="sms_code" @blur="check_sms_code" name="msg_code" id="msg_code" class="msg_input">
+<a @click="send_sms_code" class="get_msg_code">{{ sms_code_tip }}</a>
+<span v-show="error_sms_code" class="error_tip">{{ error_sms_code_message }}</span>
+</li>
 					<li class="agreement">
 						<input type="checkbox" v-model="allow" @change="check_allow" name="allow" id="allow" checked="checked">
 						<label>同意”美多商城用户使用协议“</label>
