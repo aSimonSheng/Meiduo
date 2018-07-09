@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="meiduo_mall@192.168.223.144" uuid="e07a00ba-de60-4e0b-bf41-4fa90152fdce">
+    <data-source source="LOCAL" name="meiduo_mall@localhost" uuid="23947a42-dde6-4e10-8471-13d60647eaaa">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.223.144:3306/meiduo_mall</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/meiduo_mall</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

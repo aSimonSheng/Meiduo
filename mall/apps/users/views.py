@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.generics import CreateAPIView
 from .models import User
-from .serializers import RegisterCreateSerializer
+from .serializers import CreateUserSerializer
 
 
 class RegisterUsernameView(APIView):
@@ -42,5 +42,5 @@ class RegisterCreateView(CreateAPIView):
     POST /users/
 
     """
-    serializer_class = RegisterCreateSerializer
+    serializer_class = CreateUserSerializer
 

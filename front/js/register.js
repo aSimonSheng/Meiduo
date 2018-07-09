@@ -62,7 +62,7 @@ var vm = new Vue({
 		//	ajax --> 发送
 			// 检查重名
             if (this.error_name == false) {
-                axios.get('http://127.0.0.1:8000'+'/users/usernames/' + this.username + '/count/', {
+                axios.get(this.host+'/users/usernames/' + this.username + '/count/', {
                         responseType: 'json'
                     })
                     .then(response => {
@@ -151,7 +151,7 @@ var vm = new Vue({
 
 			if(this.error_name == false && this.error_password == false && this.error_check_password == false
                 && this.error_phone == false && this.error_sms_code == false && this.error_allow == false) {
-                axios.post('http://127.0.0.1:8000'+'/users/', {
+                axios.post(this.host+'/users/', {
                         username: this.username,
                         password: this.password,
                         password2: this.password2,
