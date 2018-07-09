@@ -22,4 +22,6 @@ urlpatterns = [
     url(r'^users/', include('users.urls')),
     #  /verifications/imagecodes/(?P<image_code_id>.+)/
     url(r'^verifications/', include('verifications.urls')),
+    #  GET /oauth/qq/statues/
+    url(r'^oauth/', include('oauth.urls')),
 ]
