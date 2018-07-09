@@ -226,6 +226,7 @@ import datetime
 
 JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'utils.users.jwt_response_payload_handler',
 }
 
 # 因为现在,我们的用户模型采用的是系统模型类

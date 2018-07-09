@@ -2,86 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb55baf5-5c29-4506-98d2-026eb538af28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/utils/users.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/QQ-weixin.png" afterPath="$PROJECT_DIR$/front/images/QQ-weixin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/adv01.jpg" afterPath="$PROJECT_DIR$/front/images/adv01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/adv02.jpg" afterPath="$PROJECT_DIR$/front/images/adv02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/banner01.jpg" afterPath="$PROJECT_DIR$/front/images/banner01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/banner02.jpg" afterPath="$PROJECT_DIR$/front/images/banner02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/banner03.jpg" afterPath="$PROJECT_DIR$/front/images/banner03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/bar_code.jpg" afterPath="$PROJECT_DIR$/front/images/bar_code.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/cat.jpg" afterPath="$PROJECT_DIR$/front/images/cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/clock.jpeg" afterPath="$PROJECT_DIR$/front/images/clock.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/clock.jpg" afterPath="$PROJECT_DIR$/front/images/clock.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/down.png" afterPath="$PROJECT_DIR$/front/images/down.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/edit.png" afterPath="$PROJECT_DIR$/front/images/edit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/find-password.png" afterPath="$PROJECT_DIR$/front/images/find-password.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/goods/goods001.jpg" afterPath="$PROJECT_DIR$/front/images/goods/goods001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/goods/goods002.jpg" afterPath="$PROJECT_DIR$/front/images/goods/goods002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/goods/goods003.jpg" afterPath="$PROJECT_DIR$/front/images/goods/goods003.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/goods/goods004.jpg" afterPath="$PROJECT_DIR$/front/images/goods/goods004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/goods/goods005.jpg" afterPath="$PROJECT_DIR$/front/images/goods/goods005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/goods/goods006.jpg" afterPath="$PROJECT_DIR$/front/images/goods/goods006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/goods/goods007.jpg" afterPath="$PROJECT_DIR$/front/images/goods/goods007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/goods/goods008.jpg" afterPath="$PROJECT_DIR$/front/images/goods/goods008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/goods/goods009.jpg" afterPath="$PROJECT_DIR$/front/images/goods/goods009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/goods_450.jpg" afterPath="$PROJECT_DIR$/front/images/goods_450.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/icons.png" afterPath="$PROJECT_DIR$/front/images/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/icons02.png" afterPath="$PROJECT_DIR$/front/images/icons02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/interval_line.png" afterPath="$PROJECT_DIR$/front/images/interval_line.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/left_bg.jpg" afterPath="$PROJECT_DIR$/front/images/left_bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/login_banner.png" afterPath="$PROJECT_DIR$/front/images/login_banner.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/logo.png" afterPath="$PROJECT_DIR$/front/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/logo02.png" afterPath="$PROJECT_DIR$/front/images/logo02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/pay_icons.png" afterPath="$PROJECT_DIR$/front/images/pay_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/pic_code.jpg" afterPath="$PROJECT_DIR$/front/images/pic_code.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/register_banner.png" afterPath="$PROJECT_DIR$/front/images/register_banner.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/selected.png" afterPath="$PROJECT_DIR$/front/images/selected.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/shine.png" afterPath="$PROJECT_DIR$/front/images/shine.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/shop_cart.png" afterPath="$PROJECT_DIR$/front/images/shop_cart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/slide01.jpg" afterPath="$PROJECT_DIR$/front/images/slide01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/slide02.jpg" afterPath="$PROJECT_DIR$/front/images/slide02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/slide03.jpg" afterPath="$PROJECT_DIR$/front/images/slide03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/slide04.jpg" afterPath="$PROJECT_DIR$/front/images/slide04.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/stars.png" afterPath="$PROJECT_DIR$/front/images/stars.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/success.png" afterPath="$PROJECT_DIR$/front/images/success.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/images/time_count_bg.png" afterPath="$PROJECT_DIR$/front/images/time_count_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/front/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/.idea/misc.xml" afterPath="$PROJECT_DIR$/front/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/.idea/modules.xml" afterPath="$PROJECT_DIR$/front/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/.idea/workspace.xml" afterPath="$PROJECT_DIR$/front/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/.idea/美多商城前端资源.iml" afterPath="$PROJECT_DIR$/front/.idea/美多商城前端资源.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/cart.html" afterPath="$PROJECT_DIR$/front/cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/css/main.css" afterPath="$PROJECT_DIR$/front/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/css/reset.css" afterPath="$PROJECT_DIR$/front/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/detail.html" afterPath="$PROJECT_DIR$/front/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/find_password.html" afterPath="$PROJECT_DIR$/front/find_password.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/goods_judge.html" afterPath="$PROJECT_DIR$/front/goods_judge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/index.html" afterPath="$PROJECT_DIR$/front/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/js/axios-0.18.0.min.js" afterPath="$PROJECT_DIR$/front/js/axios-0.18.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/js/goods_judge.js" afterPath="$PROJECT_DIR$/front/js/goods_judge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/js/host.js" afterPath="$PROJECT_DIR$/front/js/host.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/front/js/jquery-1.12.4.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/js/register.js" afterPath="$PROJECT_DIR$/front/js/register.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/js/slide.js" afterPath="$PROJECT_DIR$/front/js/slide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/js/user_center_site.js" afterPath="$PROJECT_DIR$/front/js/user_center_site.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/js/vue-2.5.16.js" afterPath="$PROJECT_DIR$/front/js/vue-2.5.16.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/list.html" afterPath="$PROJECT_DIR$/front/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/login.html" afterPath="$PROJECT_DIR$/front/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/order_success.html" afterPath="$PROJECT_DIR$/front/order_success.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/place_order.html" afterPath="$PROJECT_DIR$/front/place_order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/register.html" afterPath="$PROJECT_DIR$/front/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/user_center_info.html" afterPath="$PROJECT_DIR$/front/user_center_info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/user_center_order.html" afterPath="$PROJECT_DIR$/front/user_center_order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/user_center_pass.html" afterPath="$PROJECT_DIR$/front/user_center_pass.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/user_center_site.html" afterPath="$PROJECT_DIR$/front/user_center_site.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/apps/users/serializers.py" afterPath="$PROJECT_DIR$/mall/apps/users/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/apps/users/urls.py" afterPath="$PROJECT_DIR$/mall/apps/users/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/apps/users/views.py" afterPath="$PROJECT_DIR$/mall/apps/users/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/apps/verifications/urls.py" afterPath="$PROJECT_DIR$/mall/apps/verifications/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/mall/settings.py" afterPath="$PROJECT_DIR$/mall/mall/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,11 +53,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mall/apps/users/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="e#21#53#0" expanded="true" />
               </folding>
@@ -148,7 +69,17 @@
         <entry file="file://$PROJECT_DIR$/mall/utils/users.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mall/mall/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="228" column="40" lean-forward="false" selection-start-line="228" selection-start-column="40" selection-end-line="228" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -159,8 +90,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -188,11 +119,11 @@
         <option value="$PROJECT_DIR$/front/js/register.js" />
         <option value="$PROJECT_DIR$/mall/apps/users/views.py" />
         <option value="$PROJECT_DIR$/mall/apps/users/serializers.py" />
-        <option value="$PROJECT_DIR$/mall/mall/settings.py" />
         <option value="$PROJECT_DIR$/mall/utils/users.py" />
         <option value="$PROJECT_DIR$/mall/apps/users/urls.py" />
         <option value="$PROJECT_DIR$/front/login.html" />
         <option value="$PROJECT_DIR$/front/js/login.js" />
+        <option value="$PROJECT_DIR$/mall/mall/settings.py" />
       </list>
     </option>
   </component>
@@ -244,6 +175,18 @@
               <option name="myItemId" value="Meiduo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users.py" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -255,7 +198,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meiduo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meiduo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meiduo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meiduo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meiduo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meiduo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -606,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531021335079</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="数据登录返回token">
+      <created>1531124592311</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1531124592311</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -622,11 +618,11 @@
     <frame x="65" y="24" width="1301" height="635" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1985703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13979349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2866557" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1683876" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46296296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46666667" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52080125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1537037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24781573" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -697,7 +693,8 @@
     <MESSAGE value="重建了功能,并将代码跑起来了" />
     <MESSAGE value="实现了图片验证码的前后端功能,短信验证的发送,以及celery多线程发送短信.功能" />
     <MESSAGE value="完成注册功能,接下来需要实现跨域请求" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成注册功能,接下来需要实现跨域请求" />
+    <MESSAGE value="数据登录返回token" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据登录返回token" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -713,14 +710,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/logging/config.py" />
-    <entry file="file://$PROJECT_DIR$/mall/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/Django_work1/BookPraject/l_env/Lib/site-packages/django/contrib/auth/base_user.py" />
     <entry file="file://$PROJECT_DIR$/mall/utils/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -985,14 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall/mall/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mall/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -1032,10 +1013,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall/utils/users.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3_1.11/lib/python3.5/site-packages/rest_framework_jwt/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="258">
+          <caret line="79" column="32" lean-forward="false" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3_1.11/lib/python3.5/site-packages/rest_framework_jwt/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1043,10 +1032,26 @@
     <entry file="file://$PROJECT_DIR$/mall/apps/users/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="e#21#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall/utils/users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall/mall/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="228" column="40" lean-forward="false" selection-start-line="228" selection-start-column="40" selection-end-line="228" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
