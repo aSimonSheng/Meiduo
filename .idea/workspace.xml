@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb55baf5-5c29-4506-98d2-026eb538af28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/23947a42-dde6-4e10-8471-13d60647eaaa.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/23947a42-dde6-4e10-8471-13d60647eaaa/storage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/js/oauth_callback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/oauth_callback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/oauth/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/oauth/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/oauth/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/oauth/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/oauth/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/oauth/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/oauth/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/oauth/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/oauth/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/apps/oauth/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mall/utils/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/mall/settings.py" afterPath="$PROJECT_DIR$/mall/mall/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/mall/urls.py" afterPath="$PROJECT_DIR$/mall/mall/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/apps/oauth/utils.py" afterPath="$PROJECT_DIR$/mall/apps/oauth/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/apps/oauth/views.py" afterPath="$PROJECT_DIR$/mall/apps/oauth/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,27 +54,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mall/apps/oauth/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="188">
+              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <element signature="e#315#485#0" expanded="false" />
-                <element signature="e#526#741#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mall/apps/oauth/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="302">
+              <caret line="106" column="25" lean-forward="false" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
               <folding>
                 <element signature="e#21#55#0" expanded="true" />
+                <element signature="e#284#1168#0" expanded="false" />
+                <element signature="e#1210#2399#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -161,8 +146,8 @@
         <option value="$PROJECT_DIR$/mall/mall/settings.py" />
         <option value="$PROJECT_DIR$/mall/mall/urls.py" />
         <option value="$PROJECT_DIR$/mall/apps/oauth/urls.py" />
-        <option value="$PROJECT_DIR$/mall/apps/oauth/utils.py" />
         <option value="$PROJECT_DIR$/mall/apps/oauth/views.py" />
+        <option value="$PROJECT_DIR$/mall/apps/oauth/utils.py" />
       </list>
     </option>
   </component>
@@ -669,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531139811842</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="通过code向qq获获取到了token">
+      <created>1531143132972</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1531143132987</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -695,7 +687,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24781573" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12222222" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59814817" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3713405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -765,10 +757,18 @@
     <MESSAGE value="实现使用电话号码进行验证登录" />
     <MESSAGE value="实现使用电话号码进行验证登录(第二种方法)" />
     <MESSAGE value="生成登录的QQ页面,并获取到授权code" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成登录的QQ页面,并获取到授权code" />
+    <MESSAGE value="通过code向qq获获取到了token" />
+    <option name="LAST_COMMIT_MESSAGE" value="通过code向qq获获取到了token" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mall/apps/oauth/views.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -776,9 +776,13 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="27" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="data" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://F:/Django_work1/BookPraject/l_env/Lib/site-packages/django/contrib/auth/models.py" />
@@ -1137,24 +1141,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall/apps/oauth/utils.py">
+    <entry file="file://$PROJECT_DIR$/mall/apps/oauth/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="188">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
-            <element signature="e#21#55#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#315#485#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall/apps/oauth/views.py">
+    <entry file="file://$PROJECT_DIR$/mall/apps/oauth/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="302">
+          <caret line="106" column="25" lean-forward="false" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#315#485#0" expanded="false" />
-            <element signature="e#526#741#0" expanded="false" />
+            <element signature="e#21#55#0" expanded="true" />
+            <element signature="e#284#1168#0" expanded="false" />
+            <element signature="e#1210#2399#0" expanded="false" />
           </folding>
         </state>
       </provider>

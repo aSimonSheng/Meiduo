@@ -26,7 +26,7 @@ class QQAuthURLView(APIView):
 
 class QQOauthCreateView(APIView):
     """
-    根据 返回的code 生成 token
+    根据 返回的code 生成 openid
     """
     # /oauth/qq/users/
     def get(self, request):
@@ -34,6 +34,8 @@ class QQOauthCreateView(APIView):
 
         qq = QQOauth()
         token = qq.get_token(code)
+
+        openid = qq.get_openid(token)
 
         return token
 

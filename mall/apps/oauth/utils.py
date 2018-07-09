@@ -4,6 +4,7 @@ from urllib.parse import parse_qs, urlencode
 from django.conf import settings
 from rest_framework import status
 from rest_framework.response import Response
+import json
 
 
 
@@ -38,6 +39,11 @@ class QQOauth(object):
 
 
     def get_token(self, code):
+        '''
+        这是一个通过qq返回的code向qq获取token的功能模块
+        :param code:
+        :return: token
+        '''
         if code is None:
             return Response({'message':'缺少参数'},status=status.HTTP_400_BAD_REQUEST)
 
@@ -71,3 +77,43 @@ class QQOauth(object):
         toktn = access_token[0]
 
         return toktn
+
+
+    def get_openid(self, token):
+        '''
+        这是一个通过qq返回的token向qq获取openid的功能模块
+        :param token:
+        :return: openid
+        '''
+        # https://graph.qq.com/oauth2.0/me
+        # GET
+        # access_token        必须      在Step1中获取到的accesstoken。
+
+        # 返回数据PC网站接入时，获取到用户OpenID，返回包如下：
+        # callback( {"client_id":"YOUR_APPID","openid":"YOUR_OPENID"} );
+        # openid是此网站上唯一对应用户身份的标识，网站可将此ID进行存储便于用户下次登录时辨识其身份，
+        # 或将其与用户在网站上的原有账号进行绑定
+
+        base_uel = 'https://graph.qq.com/oauth2.0/me?'
+        params = {
+            'access_token':token
+        }
+
+        openid_url = base_uel + urlencode(params)
+
+        # urlopen(openid_uel) 来获取数据
+        response = urlopen(openid_url)
+        data = response.read().decode()
+        # 获取数据,并讲数据截取,处理.
+        try:
+            dict = json.loads(data[10:-4])
+        except Exception:
+            raise Exception('数据获取失败')
+
+        openid = dict.get('openid')
+
+        if openid is not None:
+            return openid
+
+
+        # print(data)
