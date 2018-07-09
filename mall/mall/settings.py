@@ -233,8 +233,11 @@ JWT_AUTH = {
 # 所以.下列代码指定用户模型位置
 AUTH_USER_MODEL = 'users.User'
 
+# AUTHENTICATION_BACKENDS = {
+#     'utils.users.LoginMobileUsernameModelBackend'
+# }
 AUTHENTICATION_BACKENDS = {
-    'utils.users.LoginMobileUsernameModelBackend'
+    'utils.users.SettingsBackend'
 }
 
 
