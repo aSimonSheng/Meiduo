@@ -22,10 +22,15 @@ class CreateUserSerializer(serializers.ModelSerializer):
     allow = serializers.CharField(label='是否同意协议', allow_null=False,
                                   allow_blank=False, write_only=True)
 
+    token = serializers.CharField(label='token', read_only=True)
+
     class Meta:
         model = User
-        fields = ['username','password','mobile','password2','sms_code','allow']
+        fields = ['id','username','password','mobile','password2','sms_code','allow', 'token']
         extra_kwargs = {
+            'id':{
+                'read_only':True
+            },
             'username': {
                 'min_length': 5,
                 'max_length': 20,
@@ -118,5 +123,17 @@ class CreateUserSerializer(serializers.ModelSerializer):
         user.set_password(validated_data['password'])
         #保存密码
         user.save()
+
+        # 注册后直接登录 注册后返回一个token
+        from rest_framework_jwt.settings import api_settings
+
+        # 获取这两个方法
+        jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
+        jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
+
+        data = jwt_payload_handler(user)
+        token = jwt_encode_handler(data)
+
+        user.token = token
 
         return user
