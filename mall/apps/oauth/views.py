@@ -7,6 +7,7 @@ from rest_framework.views import APIView
 from django.conf import settings
 from urllib.parse import urlencode
 from .utils import QQOauth
+from .models import OAuthQQUser
 
 
 
@@ -37,6 +38,11 @@ class QQOauthCreateView(APIView):
 
         openid = qq.get_openid(token)
 
-        return token
-
+        try:
+            qquser = OAuthQQUser.object.get(openid=openid)
+        except OAuthQQUser.DoesNotExist:
+            # 说明未查找到用户,这跳转到绑定页面进行用户绑定
+            return
+        else:
+            # 说明查找到了用户,直接返回主页,并惊醒登录
 
