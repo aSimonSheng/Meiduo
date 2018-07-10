@@ -12,6 +12,10 @@ class QQOauth(object):
 
 
     def get_url(self):
+        """
+        这是一个通过验证开发着权限,返回一个code的功能模块
+        :return: auth_url
+        """
         # 用base_url
         # 生成auth_url
         # https://graph.qq.com/oauth2.0/authorize
@@ -23,7 +27,7 @@ class QQOauth(object):
         # scope           可选      scope=get_user_info
         base_url = 'https://graph.qq.com/oauth2.0/authorize?'
 
-        state = 'text'
+        state = '/'
         # 组织参数
         params = {
             'response_type': 'code',

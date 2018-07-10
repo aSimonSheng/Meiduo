@@ -7,5 +7,4 @@ urlpatterns = [
     url(r'^qq/statues/$', views.QQAuthURLView.as_view()),
     # /oauth/qq/users/
     url(r'^qq/users/$', views.QQOauthCreateView.as_view()),
-
 ]
