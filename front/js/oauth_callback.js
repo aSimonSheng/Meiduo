@@ -4,7 +4,7 @@
 var vm = new Vue({
     el: '#app',
     data: {
-        host,
+        host: host,
         is_show_waiting: true,
 
         error_password: false,
@@ -178,6 +178,7 @@ var vm = new Vue({
             this.check_phone();
             this.check_sms_code();
 
+
             if(this.error_password == false && this.error_phone == false && this.error_sms_code == false) {
                 axios.post(this.host + '/oauth/qq/users/', {
                         password: this.password,
@@ -208,5 +209,4 @@ var vm = new Vue({
             }
         }
     }
-
 });
