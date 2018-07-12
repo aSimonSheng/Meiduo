@@ -14,4 +14,6 @@ urlpatterns = [
     url(r'^$', views.RegisterCreateView.as_view()),
     #  POST /users/auths/
     url(r'^auths/$', obtain_jwt_token),
+    #GET /users/infos/
+    url(r'^infos/$', views.UserCenterInfoview.as_view()),
 ]
