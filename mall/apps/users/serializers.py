@@ -2,6 +2,8 @@
 from rest_framework import serializers
 from .models import User
 from django_redis import get_redis_connection
+from django.core.mail import send_mail
+from django.conf import settings
 #ModelSerializer
 #Serializer
 
@@ -166,6 +168,23 @@ class EmailSerializer(serializers.ModelSerializer):
         instance.save()
 
         # 更新邮箱信息的时候发送邮件
-
+            # 发送主题
+        subject = '邮件验证'
+            # 发送的简单内容
+        message = ''
+            # 发送人邮件
+        from_email = settings.EMAIL_FROM
+            # 收件人列表
+        recipient_list = [email]
+            # 发送的内容(复杂的html页面)
+        html_message='这是的一封从后台发送的邮件'
+        send_mail(subject=subject,
+                  message=message,
+                  from_email=from_email,
+                  recipient_list=recipient_list,
+                  html_message=html_message
+                  )
 
         return instance
+
+

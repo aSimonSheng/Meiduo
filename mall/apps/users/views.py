@@ -81,7 +81,7 @@ class EmailView(UpdateAPIView):
     2.当我们单机板寸的时候,把邮件信息发送过来,修改数据
     3.我们需要发送,验证吗邮件
     """
-    renderer_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
 
     serializer_class = EmailSerializer
 
