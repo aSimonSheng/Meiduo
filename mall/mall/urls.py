@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     # /users
@@ -24,4 +25,5 @@ urlpatterns = [
     url(r'^verifications/', include('verifications.urls')),
     #  GET /oauth/qq/statues/
     url(r'^oauth/', include('oauth.urls')),
+    url(r'^areas/',include('areas.urls')),
 ]

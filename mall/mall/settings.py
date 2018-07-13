@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
-    'oauth.apps.OauthConfig'
+    'oauth.apps.OauthConfig',
+    'areas.apps.AreasConfig'
 ]
 
 # CORS 白名单
