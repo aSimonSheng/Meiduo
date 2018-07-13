@@ -19,4 +19,8 @@ urlpatterns = [
 
     # PUT/users/emails/
     url(r'^emails/$', views.EmailView.as_view()),
+
+    # GET /users/emails/verification/
+    url(r'^emails/verification/$', views.VerifyEmailView.as_view())
+
 ]
