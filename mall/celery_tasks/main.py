@@ -21,7 +21,7 @@ app.config_from_object('celery_tasks.config')
 # 自动检测
 # 参数[]
 # 每一项 就是队形celery_tasks,sms
-app.autodiscover_tasks(['celery_tasks.sms'])
+app.autodiscover_tasks(['celery_tasks.sms', 'celery_tasks.email'])
 
 
 # celery -A 脚本路径.celery实例锁对应的文件  work -l info
