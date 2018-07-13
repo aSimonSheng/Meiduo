@@ -262,3 +262,15 @@ EMAIL_HOST_USER = 'sheng20180101@163.com'
 EMAIL_HOST_PASSWORD = '163126aaa'
 #收件人看到的发件人
 EMAIL_FROM = '美多商城<sheng20180101@163.com>'
+
+
+# DRF扩展
+REST_FRAMEWORK_EXTENSIONS = {
+    # 缓存时间
+    'DEFAULT_CACHE_RESPONSE_TIMEOUT': 60 * 60,
+    # 缓存存储
+    'DEFAULT_USE_CACHE': 'default',
+}
+
+
+

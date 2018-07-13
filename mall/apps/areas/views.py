@@ -4,8 +4,14 @@ from django.shortcuts import render
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from .models import Area
 from .serializer import AreaSerializer, SubAreaSerializer
+from rest_framework_extensions.cache.mixins import ListCacheResponseMixin, RetrieveCacheResponseMixin, CacheResponseMixin
 
-class AreasView(ReadOnlyModelViewSet):
+
+# ListCacheResponseMixin             get list方法      列表
+# RetrieveCacheResponseMixin         get retrievw方法  缓存
+# CacheResponseMixin                                  缓存跟列表
+
+class AreasView(CacheResponseMixin,ReadOnlyModelViewSet):
 
 
     def get_queryset(self):
